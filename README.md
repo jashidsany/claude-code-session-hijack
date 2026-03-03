@@ -1,5 +1,9 @@
 # Claude Code Remote Control - Session Hijacking PoC
 
+## Video Demo
+
+https://github.com/user-attachments/assets/021de0b4-4d45-45f1-9a19-40b13b6d6ae5
+
 ## Overview
 
 This repository contains a proof-of-concept demonstrating a session hijacking vulnerability in Claude Code's remote-control feature (v2.1.63). The `claude.ai/v1/sessions/{session_id}/events` endpoint lacks per-session authentication, allowing an attacker to inject arbitrary messages into a victim's active session from any machine on the internet.
